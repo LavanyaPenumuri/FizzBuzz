@@ -1,0 +1,20 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "To print fizzbuzz",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha '**/*.test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "expect": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
