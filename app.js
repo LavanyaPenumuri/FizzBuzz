@@ -14,7 +14,6 @@ app.get('/', function(req, res) {
 
 
 app.post("/fizzbuzz", (req, res) => {
-    console.log(req.body.input_data.split(','));
     let arr = req.body.input_data.split(',');
     let result = [];
     for (i = 0; i < arr.length; i++){
